@@ -90,9 +90,9 @@ const Signup = () => {
 
                         <div className="flex items-center justify-between">
                             <div>
-                                <span>Have an account with us already? </span><Link to="/login" className="text-s bold italic underline text-teal-500 text-xl">Simply log in.</Link>
+                                <span>Have an account with us already? </span><Link to="/login" className="text-s bold italic underline text-gray-800 text-xl">Simply log in.</Link>
                             </div>
-                            <button type="submit" className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ms-32">
+                            <button type="submit" className="bg-gray-800 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ms-32">
                                 Signup
                             </button>
 

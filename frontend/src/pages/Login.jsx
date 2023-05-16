@@ -75,7 +75,7 @@ const Login = () => {
                             <p className="me-20 mt-2">
                                 <span>No account?</span> <Link to="/signup" className="text-s bold italic underline text-gray-500 text-xl">Create one!</Link>
                             </p>
-                            <button type="submit" className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ms-3">
+                            <button type="submit" className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ms-32">
                                 Login
                             </button>
 
