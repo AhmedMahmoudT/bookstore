@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+#scroll::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+#scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+#scroll::-webkit-scrollbar-thumb {
+    background: rgb(133, 132, 132);
+}
+
+.parent-container {
+    position: relative;
+}
+
+.in-front {
+    position: absolute;
+    z-index: 1;
+}
